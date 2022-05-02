@@ -1,6 +1,6 @@
-# Tags: latest, 4.1.2-debian-10-r29, 4.1.2, 4-debian-10, 4
+# Tags: latest, 4.1.2-debian-10-r32, 4.1.2, 4-debian-10, 4
 FROM bitnami/joomla:latest
-FROM bitnami/joomla:4.1.2-debian-10-r29
+FROM bitnami/joomla:4.1.2-debian-10-r32
 FROM bitnami/joomla:4.1.2
 FROM bitnami/joomla:4-debian-10
 FROM bitnami/joomla:4
@@ -8,11 +8,29 @@ FROM bitnami/joomla:4
 # Tags: _
 FROM bitnami/joomla:_
 
-# Tags: 3.10.8-debian-10-r28, 3.10.8, 3-debian-10, 3
-FROM bitnami/joomla:3.10.8-debian-10-r28
+# Tags: 3.10.8-debian-10-r31, 3.10.8, 3-debian-10, 3
+FROM bitnami/joomla:3.10.8-debian-10-r31
 FROM bitnami/joomla:3.10.8
 FROM bitnami/joomla:3-debian-10
 FROM bitnami/joomla:3
+
+# Tags: 4.1.2-debian-10-r31
+FROM bitnami/joomla:4.1.2-debian-10-r31
+
+# Tags: 3.10.8-debian-10-r30
+FROM bitnami/joomla:3.10.8-debian-10-r30
+
+# Tags: 4.1.2-debian-10-r30
+FROM bitnami/joomla:4.1.2-debian-10-r30
+
+# Tags: 3.10.8-debian-10-r29
+FROM bitnami/joomla:3.10.8-debian-10-r29
+
+# Tags: 4.1.2-debian-10-r29
+FROM bitnami/joomla:4.1.2-debian-10-r29
+
+# Tags: 3.10.8-debian-10-r28
+FROM bitnami/joomla:3.10.8-debian-10-r28
 
 # Tags: 4.1.2-debian-10-r28
 FROM bitnami/joomla:4.1.2-debian-10-r28
@@ -163,32 +181,3 @@ FROM bitnami/joomla:3.10.8-debian-10-r4
 
 # Tags: 4.1.2-debian-10-r3
 FROM bitnami/joomla:4.1.2-debian-10-r3
-
-# Tags: 3.10.8-debian-10-r3
-FROM bitnami/joomla:3.10.8-debian-10-r3
-
-# Tags: 4.1.2-debian-10-r2
-FROM bitnami/joomla:4.1.2-debian-10-r2
-
-# Tags: 3.10.8-debian-10-r2
-FROM bitnami/joomla:3.10.8-debian-10-r2
-
-# Tags: 4.1.2-debian-10-r1
-FROM bitnami/joomla:4.1.2-debian-10-r1
-
-# Tags: 3.10.8-debian-10-r1
-FROM bitnami/joomla:3.10.8-debian-10-r1
-
-# Tags: 4.1.2-debian-10-r0
-FROM bitnami/joomla:4.1.2-debian-10-r0
-
-# Tags: 3.10.8-debian-10-r0
-FROM bitnami/joomla:3.10.8-debian-10-r0
-
-# Tags: 3.10.7-debian-10-r0, 3.10.7
-FROM bitnami/joomla:3.10.7-debian-10-r0
-FROM bitnami/joomla:3.10.7
-
-# Tags: 4.1.1-debian-10-r0, 4.1.1
-FROM bitnami/joomla:4.1.1-debian-10-r0
-FROM bitnami/joomla:4.1.1
